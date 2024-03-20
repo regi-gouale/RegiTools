@@ -20,7 +20,7 @@ echo "# $mydir" >README.md
 
 # Initialize the git and enforce node version with some info in the readme.md
 pnpm init
-git init
+# git init
 
 node_version=$(node -v)
 echo "node version: ${node_version:1}" >>README.md
